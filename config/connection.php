@@ -1,7 +1,7 @@
 <?php
 
-$host = getenv("DB_HOST") ?: "nnpcserver.mysql.database.azure.com";
-$user = getenv("DB_USER") ?: "nnpc";
+$host = getenv("DB_HOST") ?: "musicals.mysql.database.azure.com";
+$user = getenv("DB_USER") ?: "musicals";
 $password = getenv("DB_PASSWORD") ?: "Password@123";
 $database = getenv("DB_DATABASE") ?: "scoe";
 
